@@ -7,49 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="ID:"
-        android:textSize="30sp"></TextView>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="username"></EditText>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"></EditText>
-
-    <Button
-        android:id="@+id/btnInserir"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="inserir"
-        android:textAllCaps="true"
-        android:textStyle="bold"></Button>
-
-    <Button
-        android:id="@+id/btnAlterar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Alterar"
-        android:textAllCaps="true"
-        android:textStyle="bold"></Button>
-
-    <Button
-        android:id="@+id/btnApagar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Apagar"
-        android:textAllCaps="true"
-        android:textStyle="bold"></Button>
-
     <ListView
         android:id="@+id/listUsers"
         android:layout_width="match_parent"
